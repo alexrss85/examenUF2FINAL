@@ -1,0 +1,53 @@
+.gallery{
+    display: flex;
+    gap:20px;
+}
+
+.image-container{
+    width: 400px;
+}
+
+.image-container img{
+    width: 100%
+}
+
+.cuadrat{
+	width:50px;
+	height: 50px;
+	text-align: center;
+	line-height: 45px;
+	background-color:orange;
+    animation-name: cuadrat;
+    transition-duration: 10s;
+    
+}
+
+@keyframes cuadrat {
+
+    30%{color: #ffc400; rotate: 90deg; height: 60px;}
+    50%{color: #0d00ff; rotate: 180deg; height: 80px;}
+    70%{color: #00ff26; width: 100px;}
+    100%{color: #ffd500; rotate: 90deg; height: 50px; width: 50px;}
+
+    
+}
+
+.imatgeResponsive{
+    width: 100%;
+}
+
+div>img{
+    width: 100%;
+}
+
+picture>img{
+    width: 100%;
+}
+
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+
